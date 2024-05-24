@@ -1,7 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { slideIn } from '@/utils/slideIn';
 import { useContactControllet } from './useContactControllet';
 import FormField from './components/FormField';
 
@@ -9,9 +7,11 @@ const Contact: React.FC = () => {
   const { form, loading, handleChange, handleSubmit } = useContactControllet();
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
-      <motion.div
-        variants={slideIn('left', 'tween', 0.2, 1)}
+    <div
+      className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden"
+      id="contact"
+    >
+      <div
         className="flex-[0.75] p-8 rounded-2xl"
         style={{
           background: 'rgb(4,7,29)',
@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
             {loading ? 'Sending...' : 'Send'}
           </button>
         </form>
-      </motion.div>
+      </div>
     </div>
   );
 };

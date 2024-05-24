@@ -135,12 +135,14 @@ export const BentoGridItem = ({
 
           {id === 6 && (
             <div className="mt-5 relative">
-              <MagicButton
-                title="Contact"
-                icon={<MdEmail />}
-                position="left"
-                otherClasses="bg-[#161A31]"
-              />
+              <a href="#contact">
+                <MagicButton
+                  title="Contact"
+                  icon={<MdEmail />}
+                  position="left"
+                  otherClasses="bg-[#161A31]"
+                />
+              </a>
             </div>
           )}
         </div>
