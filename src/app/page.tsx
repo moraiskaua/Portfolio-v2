@@ -2,6 +2,7 @@ import { navItems } from '@/data';
 import Hero from './components/Hero';
 import { FloatingNavbar } from './components/ui/FloatingNavbar';
 import Grid from './components/Grid';
+import Contact from './components/Contact';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <FloatingNavbar navItems={navItems} />
         <Hero />
         <Grid />
+        <Contact />
       </div>
     </main>
   );
