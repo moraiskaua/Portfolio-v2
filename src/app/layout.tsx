@@ -19,7 +19,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Toaster />
+        <Toaster
+          toastOptions={{
+            iconTheme: {
+              primary: 'rgb(203 172 249)',
+              secondary: 'black',
+            },
+            style: {
+              backgroundColor: '#000319',
+              color: 'white',
+            },
+          }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
