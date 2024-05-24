@@ -1,3 +1,5 @@
+import { FaLocationArrow } from 'react-icons/fa6';
+import MagicButton from './ui/MagicButton';
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 
@@ -29,13 +31,21 @@ const Hero: React.FC<HeroProps> = ({}) => {
           </h2>
 
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless Experiences"
+            words="Transforming Concepts into Seamless User Experiences"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi, I&apos;m Kauã, a Full-stack Developer.
           </p>
+
+          <a href="#about">
+            <MagicButton
+              title="Show my work"
+              position="right"
+              icon={<FaLocationArrow />}
+            />
+          </a>
         </div>
       </div>
     </div>
