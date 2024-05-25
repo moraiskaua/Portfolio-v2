@@ -46,7 +46,6 @@ export const gridItems = [
     img: '/grid.svg',
     spareImg: '/b4.svg',
   },
-
   {
     id: 5,
     title: 'Currently building an application to learn Music!',
@@ -66,5 +65,66 @@ export const gridItems = [
     titleClassName: 'justify-center md:max-w-full max-w-60 text-center',
     img: '',
     spareImg: '',
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    name: 'Chord.io',
+    description: `Listen and guess the chord of the day.`,
+    iconList: [
+      '/techs/next.svg',
+      '/techs/tailwind.svg',
+      '/techs/typescript.svg',
+    ],
+    img: '/projects/chord-io.jpg',
+    link: 'https://chord-io.netlify.app',
+    source_code_link: 'https://github.com/moraiskaua/Chord.io',
+  },
+  {
+    id: 2,
+    name: 'Saving Pets',
+    description: 'Web system to contact the saving pets team.',
+    iconList: [],
+    img: '/projects/savingpets.jpeg',
+    link: 'https://saving-pets.vercel.app',
+    source_code_link: 'https://github.com/moraiskaua/front-end-saving-pets',
+  },
+  {
+    id: 3,
+    name: 'Biofit',
+    description: 'Landing page for biofit gym',
+    iconList: [],
+    img: '/projects/biofit.png',
+    link: 'https://biofit-theta.vercel.app',
+    source_code_link: 'https://github.com/moraiskaua/Biofit',
+  },
+  {
+    id: 4,
+    name: 'DevEconomy',
+    description: 'Manage your personal finances.',
+    iconList: [],
+    img: '/projects/deveconomy.jpg',
+    link: 'https://dev-economy.vercel.app',
+    source_code_link: 'https://github.com/moraiskaua/front-end-DevEconomy',
+  },
+  {
+    id: 5,
+    name: 'SnackByte',
+    description: 'Web system to manage a cafeteria.',
+    iconList: [],
+    img: '/projects/snackbyte.jpg',
+    link: 'https://snackbyte.vercel.app',
+    source_code_link: 'https://github.com/moraiskaua/front-end-SnackByte',
+  },
+  {
+    id: 6,
+    name: 'DevMessage',
+    description: 'Real-time web messenger.',
+    iconList: [],
+    img: '/projects/dev-message.png',
+    link: 'https://dev-message.vercel.app',
+    source_code_link: 'https://github.com/moraiskaua/DevMessage',
   },
 ];
