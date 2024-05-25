@@ -5,7 +5,7 @@ interface GridProps {}
 
 const Grid: React.FC<GridProps> = ({}) => {
   return (
-    <section id="about">
+    <section id="grid">
       <BentoGrid>
         {gridItems.map(
           ({

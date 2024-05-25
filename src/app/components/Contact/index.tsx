@@ -1,5 +1,3 @@
-'use client';
-
 import { useContactControllet } from './useContactControllet';
 import FormField from './components/FormField';
 
@@ -7,10 +5,7 @@ const Contact: React.FC = () => {
   const { form, loading, handleChange, handleSubmit } = useContactControllet();
 
   return (
-    <div
-      className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden"
-      id="contact"
-    >
+    <section className="w-full xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden z-50">
       <div
         className="flex-[0.75] p-8 rounded-2xl"
         style={{
@@ -59,7 +54,7 @@ const Contact: React.FC = () => {
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 

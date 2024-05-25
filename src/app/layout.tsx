@@ -18,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/icon/favicon.svg" />
       <body className={inter.className}>
         <Toaster
           toastOptions={{
