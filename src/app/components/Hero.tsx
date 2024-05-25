@@ -1,4 +1,6 @@
-import { FaLocationArrow } from 'react-icons/fa6';
+'use client';
+
+import { FaGithub, FaLinkedin, FaLocationArrow } from 'react-icons/fa6';
 import MagicButton from './ui/MagicButton';
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
@@ -45,13 +47,42 @@ const Hero: React.FC<HeroProps> = ({}) => {
             Hi, I&apos;m Kauã, a Full-stack Developer 👋.
           </p>
 
-          <a href="#about">
+          <a href="#about" className="mb-4 md:m-0">
             <MagicButton
               title="Show my work"
               position="right"
               icon={<FaLocationArrow />}
             />
           </a>
+
+          <div className="flex flex-col gap-4 md:flex-row text-center md:space-x-5">
+            <MagicButton
+              title="LinkedIn"
+              icon={<FaLinkedin />}
+              position="right"
+              otherClasses="bg-[#161A31]"
+              onClick={() =>
+                window.open(
+                  'https://www.linkedin.com/in/kauamorais03/',
+                  '_blank',
+                  'noopener,noreferrer',
+                )
+              }
+            />
+            <MagicButton
+              title="GitHub"
+              icon={<FaGithub />}
+              position="right"
+              otherClasses="bg-[#161A31]"
+              onClick={() =>
+                window.open(
+                  'https://github.com/moraiskaua',
+                  '_blank',
+                  'noopener,noreferrer',
+                )
+              }
+            />
+          </div>
         </div>
       </div>
     </div>

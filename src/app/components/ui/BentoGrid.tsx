@@ -3,6 +3,7 @@ import { BackgroundGradientAnimation } from './BackgroundGradientAnimation';
 import GridGlobe from './GridGlobe';
 import MagicButton from './MagicButton';
 import { MdEmail } from 'react-icons/md';
+import { FaLinkedin } from 'react-icons/fa6';
 
 export const BentoGrid = ({
   className,
