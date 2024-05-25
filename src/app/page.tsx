@@ -4,6 +4,7 @@ import { FloatingNavbar } from './components/ui/FloatingNavbar';
 import Grid from './components/Grid';
 import Contact from './components/Contact';
 import RecentProjects from './components/RecentProjects';
+import Experience from './components/Experience';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Hero />
         <Grid />
         <RecentProjects />
+        <Experience />
         <Contact />
       </div>
     </main>

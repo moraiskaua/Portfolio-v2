@@ -1,7 +1,7 @@
 export const navItems = [
   { name: 'About', link: '#about' },
   { name: 'Projects', link: '#projects' },
-  { name: 'Testimonials', link: '#testimonials' },
+  { name: 'Experience', link: '#experience' },
   { name: 'Contact', link: '#contact' },
 ];
 
@@ -102,7 +102,7 @@ export const projects = [
   {
     id: 3,
     name: 'Biofit',
-    description: 'Landing page for biofit gym',
+    description: 'Landing page for biofit gym.',
     iconList: [
       '/techs/next.svg',
       '/techs/tailwind.svg',
@@ -156,5 +156,37 @@ export const projects = [
     img: '/projects/dev-message.png',
     link: 'https://dev-message.vercel.app',
     source_code_link: 'https://github.com/moraiskaua/DevMessage',
+  },
+];
+
+export const experiences = [
+  {
+    id: 1,
+    title: 'Front-end Developer',
+    description: 'Using ReactJS.',
+    thumbnail: '/experiences/exp1.svg',
+    className: 'md:col-span-2',
+  },
+  {
+    id: 2,
+    title: 'Back-end Developer',
+    description: 'Using NodeJS.',
+    thumbnail: '/experiences/exp4.svg',
+    className: 'md:col-span-2',
+  },
+  {
+    id: 3,
+    title: 'Mobile Developer',
+    description: 'Using React Native.',
+    thumbnail: '/experiences/exp3.svg',
+    className: 'md:col-span-2',
+  },
+
+  {
+    id: 4,
+    title: 'Full-stack Developer',
+    description: 'Using all these technologies with typescript.',
+    thumbnail: '/experiences/exp2.svg',
+    className: 'md:col-span-2',
   },
 ];
