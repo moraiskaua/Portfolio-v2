@@ -5,6 +5,7 @@ import Grid from './components/Grid';
 import Contact from './components/Contact';
 import RecentProjects from './components/RecentProjects';
 import Experience from './components/Experience';
+import Approach from './components/Approach';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Grid />
         <RecentProjects />
         <Experience />
+        <Approach />
         <Contact />
       </div>
     </main>
