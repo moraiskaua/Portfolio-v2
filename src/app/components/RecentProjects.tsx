@@ -32,14 +32,14 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
             >
               <PinContainer title={link} href={link}>
                 <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-                  <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
+                  <div className="relative w-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                     <img src="/bg.png" alt="background image" />
                   </div>
 
                   <img
                     src={img}
                     alt={name}
-                    className="z-10 absolute bottom-0 rotate-3 p-5 pb-0"
+                    className="z-10 absolute bottom-0 rotate-3 p-5 pb-3.5 rounded-3xl"
                   />
                 </div>
 
