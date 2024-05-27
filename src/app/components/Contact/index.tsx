@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
   const { form, loading, handleChange, handleSubmit } = useContactControllet();
 
   return (
-    <section className="w-full xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden z-50">
+    <section className="w-full justify-center xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden z-50">
       <div
         className="flex-[0.75] p-8 rounded-2xl"
         style={{
