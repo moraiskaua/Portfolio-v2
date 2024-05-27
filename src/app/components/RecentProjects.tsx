@@ -72,13 +72,14 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
 
                   <div className="flex w-full justify-between items-center">
                     <button
-                      onClick={() =>
+                      onClick={e => {
+                        e.stopPropagation();
                         window.open(
                           source_code_link,
                           '_blank',
                           'noopener,noreferrer',
-                        )
-                      }
+                        );
+                      }}
                       className="flex items-center text-purple"
                     >
                       <p className="lg:text-xl md:text-xs text-sm text-purple">
