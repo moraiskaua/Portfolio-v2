@@ -14,7 +14,7 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
         <span className="text-purple">recent projects</span>
       </h1>
 
-      <div className="flex flex-wrap items-center jusitfy-center p-4 gap-x-24 gap-y-8 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(
           ({
             id,
