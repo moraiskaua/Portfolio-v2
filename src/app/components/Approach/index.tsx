@@ -1,22 +1,24 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { CanvasRevealEffect } from '../ui/CanvasRevealEffect';
 import ApproachCard from './components/CardApproach';
 
 const Approach = () => {
+  const t = useTranslations('Approach');
+
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        {t('Header.Text')}{' '}
+        <span className="text-purple">{t('Header.Highlighted')}</span>
       </h1>
 
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4 mx-auto">
         <ApproachCard
-          icon={<AceternityIcon order="Phase 1" />}
-          title="Planning"
-          description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content."
+          icon={<AceternityIcon order={t('Planning.Order')} />}
+          title={t('Planning.Title')}
+          description={t('Planning.Description')}
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,11 +26,9 @@ const Approach = () => {
           />
         </ApproachCard>
         <ApproachCard
-          icon={<AceternityIcon order="Phase 2" />}
-          title="Development"
-          description="Once we agree on the plan, i dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          icon={<AceternityIcon order={t('Development.Order')} />}
+          title={t('Development.Title')}
+          description={t('Development.Description')}
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -41,11 +41,9 @@ const Approach = () => {
           />
         </ApproachCard>
         <ApproachCard
-          icon={<AceternityIcon order="Phase 3" />}
-          title="Launch"
-          description="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          icon={<AceternityIcon order={t('Launch.Order')} />}
+          title={t('Launch.Title')}
+          description={t('Launch.Description')}
         >
           <CanvasRevealEffect
             animationSpeed={3}

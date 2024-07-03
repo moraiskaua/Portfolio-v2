@@ -61,5 +61,26 @@
       "Title": "Full-stack Developer",
       "Description": "Using all these technologies with typescript."
     }
+  },
+  "Approach": {
+    "Header": {
+      "Text": "My",
+      "Highlighted": "Approach"
+    },
+    "Planning": {
+      "Order": "Phase 1",
+      "Title": "Planning",
+      "Description": "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like structure, navigation, and content."
+    },
+    "Development": {
+      "Order": "Phase 2",
+      "Title": "Development",
+      "Description": "Once we agree on the plan, i dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+    },
+    "Launch": {
+      "Order": "Phase 3",
+      "Title": "Launch",
+      "Description": "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building website from the ground up."
+    }
   }
 }

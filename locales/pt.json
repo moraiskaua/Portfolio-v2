@@ -61,5 +61,26 @@
       "Title": "Desenvolvedor Full-stack",
       "Description": "Usando todas essas tecnologias com typescript."
     }
+  },
+  "Approach": {
+    "Header": {
+      "Text": "Minha",
+      "Highlighted": "Abordagem"
+    },
+    "Planning": {
+      "Order": "Fase 1",
+      "Title": "Planejamento",
+      "Description": "Entenderemos os objetivos, o público-alvo e as principais funcionalidades do seu site. Discutiremos coisas como estrutura, navegação e conteúdo."
+    },
+    "Development": {
+      "Order": "Fase 2",
+      "Title": "Desenvolvimento",
+      "Description": "Assim que concordarmos com o plano, mergulho no código. Dos esboços iniciais ao código refinado, mantendo você atualizado em cada etapa do processo."
+    },
+    "Launch": {
+      "Order": "Fase 3",
+      "Title": "Produção",
+      "Description": "É aqui que a mágica acontece! Com base no design aprovado, transformarei tudo em código funcional, construindo o site do zero."
+    }
   }
 }
