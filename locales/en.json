@@ -1,0 +1,31 @@
+{
+  "Navbar": {
+    "About": "About",
+    "Projects": "Projects",
+    "Experience": "Experience",
+    "Contact": "Contact"
+  },
+  "Hero": {
+    "Header": "Power of Web Development with Next.js",
+    "Title": "Transforming Concepts into Seamless User Experiences",
+    "Me": "Hi, I'm Kauã, a Full-stack Developer 👋.",
+    "Button": "Show my work"
+  },
+  "Grid": {
+    "Collaboration": "I prioritize client collaboration, fostering open communication",
+    "Flexible": "I'm very flexible with time zone communications",
+    "Stack": {
+      "Title": "My tech stack",
+      "Description": "I constantly try to improve"
+    },
+    "Enthusiast": "Tech enthusiast with a passion for development.",
+    "News": {
+      "Title": "Currently building an application to learn Music!",
+      "Description": "The Inside Scoop"
+    },
+    "Contact": {
+      "Title": "Do you want to start a project together?",
+      "Button": "Contact"
+    }
+  }
+}

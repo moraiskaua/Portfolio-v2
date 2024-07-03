@@ -1,12 +1,102 @@
 'use client';
 
-import { projects } from '@/data';
 import { PinContainer } from './ui/3d-pin';
 import { FaGithub, FaLocationArrow } from 'react-icons/fa6';
 
 interface RecentProjectsProps {}
 
 const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
+  const projects = [
+    {
+      id: 1,
+      name: 'Chord.io',
+      description: `Listen and guess the chord of the day.`,
+      iconList: [
+        '/techs/next.svg',
+        '/techs/nodejs.svg',
+        '/techs/tailwind.svg',
+        '/techs/mongodb.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/chord-io.jpg',
+      link: 'https://chord-io.netlify.app',
+      source_code_link: 'https://github.com/moraiskaua/Chord.io',
+    },
+    {
+      id: 2,
+      name: 'Saving Pets',
+      description: 'Web system to contact the saving pets team.',
+      iconList: [
+        '/techs/next.svg',
+        '/techs/nestjs.svg',
+        '/techs/tailwind.svg',
+        '/techs/postgresql.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/savingpets.jpeg',
+      link: 'https://saving-pets.vercel.app',
+      source_code_link: 'https://github.com/moraiskaua/front-end-saving-pets',
+    },
+    {
+      id: 3,
+      name: 'Biofit',
+      description: 'Landing page for biofit gym.',
+      iconList: [
+        '/techs/next.svg',
+        '/techs/tailwind.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/biofit.png',
+      link: 'https://biofit-theta.vercel.app',
+      source_code_link: 'https://github.com/moraiskaua/Biofit',
+    },
+    {
+      id: 4,
+      name: 'DevEconomy',
+      description: 'Manage your personal finances.',
+      iconList: [
+        '/techs/react.svg',
+        '/techs/nestjs.svg',
+        '/techs/tailwind.svg',
+        '/techs/postgresql.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/deveconomy.jpg',
+      link: 'https://dev-economy.vercel.app',
+      source_code_link: 'https://github.com/moraiskaua/front-end-DevEconomy',
+    },
+    {
+      id: 5,
+      name: 'SnackByte',
+      description: 'Web system to manage a cafeteria.',
+      iconList: [
+        '/techs/react.svg',
+        '/techs/nodejs.svg',
+        '/techs/tailwind.svg',
+        '/techs/mongodb.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/snackbyte.jpg',
+      link: 'https://snackbyte.vercel.app',
+      source_code_link: 'https://github.com/moraiskaua/front-end-SnackByte',
+    },
+    {
+      id: 6,
+      name: 'DevMessage',
+      description: 'Real-time web messenger.',
+      iconList: [
+        '/techs/next.svg',
+        '/techs/nodejs.svg',
+        '/techs/tailwind.svg',
+        '/techs/mongodb.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/dev-message.png',
+      link: 'https://dev-message.vercel.app',
+      source_code_link: 'https://github.com/moraiskaua/DevMessage',
+    },
+  ];
+
   return (
     <section className="py-20" id="projects">
       <h1 className="heading">
