@@ -4,8 +4,8 @@
     "ecmaVersion": "latest",
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true
-    }
+      "jsx": true,
+    },
   },
   "env": { "browser": true, "es2021": true },
   "extends": [
@@ -13,11 +13,11 @@
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
   ],
   "ignorePatterns": ["dist", "node_modules", "build", "public"],
   "settings": { "react": { "version": "18.2" } },
-  "plugins": ["@typescript-eslint", "react", "jsx-a11y", "react-refresh"],
+  "plugins": ["@typescript-eslint", "react", "jsx-a11y"],
   "rules": {
     "linebreak-style": ["error", "unix"],
     "no-console": "warn",
@@ -29,6 +29,6 @@
     "react/prop-types": "off",
     "react/no-unknown-property": "off",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
-  }
+    "react-hooks/exhaustive-deps": "warn",
+  },
 }

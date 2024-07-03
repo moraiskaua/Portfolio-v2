@@ -13,7 +13,7 @@
   },
   "Grid": {
     "Collaboration": "Priorizo ​​a colaboração do cliente, promovendo a comunicação aberta",
-    "Flexible": "Sou muito flexível com fuso horário para comunicação.",
+    "Flexible": "Sou altamente flexível com fusos horários para contato.",
     "Stack": {
       "Title": "Tecnologias",
       "Description": "Estudando constantemente"
@@ -27,5 +27,17 @@
       "Title": "Tem interesse em iniciar um projeto?",
       "Button": "Contato"
     }
+  },
+  "Projects": {
+    "Header": {
+      "Text": "Alguns",
+      "Highlighted": " projetos recentes"
+    },
+    "Chordio": "Escute e adivinhe o acorde do dia.",
+    "SavingPets": "Blog de contato para equipe do saving pets.",
+    "Biofit": "Página para academia biofit.",
+    "DevEconomy": "Gerencie suas finanças pessoais.",
+    "SnackByte": "Sistema para lanchonete.",
+    "DevMessage": "Chat de mensagens em tempo real."
   }
 }

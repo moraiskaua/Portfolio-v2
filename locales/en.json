@@ -27,5 +27,17 @@
       "Title": "Do you want to start a project together?",
       "Button": "Contact"
     }
+  },
+  "Projects": {
+    "Header": {
+      "Text": "A small selection of",
+      "Highlighted": " recent projects"
+    },
+    "Chordio": "Listen and guess the chord of the day.",
+    "SavingPets": "Web system to contact the saving pets team.",
+    "Biofit": "Landing page for biofit gym.",
+    "DevEconomy": "Manage your personal finances.",
+    "SnackByte": "Web system to manage a cafeteria.",
+    "DevMessage": "Real-time web messenger."
   }
 }

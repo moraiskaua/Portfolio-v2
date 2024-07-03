@@ -1,16 +1,19 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { PinContainer } from './ui/3d-pin';
 import { FaGithub, FaLocationArrow } from 'react-icons/fa6';
 
 interface RecentProjectsProps {}
 
 const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
+  const t = useTranslations('Projects');
+
   const projects = [
     {
       id: 1,
       name: 'Chord.io',
-      description: `Listen and guess the chord of the day.`,
+      description: t('Chordio'),
       iconList: [
         '/techs/next.svg',
         '/techs/nodejs.svg',
@@ -25,7 +28,7 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
     {
       id: 2,
       name: 'Saving Pets',
-      description: 'Web system to contact the saving pets team.',
+      description: t('SavingPets'),
       iconList: [
         '/techs/next.svg',
         '/techs/nestjs.svg',
@@ -40,7 +43,7 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
     {
       id: 3,
       name: 'Biofit',
-      description: 'Landing page for biofit gym.',
+      description: t('Biofit'),
       iconList: [
         '/techs/next.svg',
         '/techs/tailwind.svg',
@@ -53,7 +56,7 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
     {
       id: 4,
       name: 'DevEconomy',
-      description: 'Manage your personal finances.',
+      description: t('DevEconomy'),
       iconList: [
         '/techs/react.svg',
         '/techs/nestjs.svg',
@@ -68,7 +71,7 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
     {
       id: 5,
       name: 'SnackByte',
-      description: 'Web system to manage a cafeteria.',
+      description: t('SnackByte'),
       iconList: [
         '/techs/react.svg',
         '/techs/nodejs.svg',
@@ -83,7 +86,7 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
     {
       id: 6,
       name: 'DevMessage',
-      description: 'Real-time web messenger.',
+      description: t('DevMessage'),
       iconList: [
         '/techs/next.svg',
         '/techs/nodejs.svg',
@@ -100,8 +103,8 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
   return (
     <section className="py-20" id="projects">
       <h1 className="heading">
-        A small selection of{' '}
-        <span className="text-purple">recent projects</span>
+        {t('Header.Text')}
+        <span className="text-purple"> {t('Header.Highlighted')}</span>
       </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
