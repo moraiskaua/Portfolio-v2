@@ -3,7 +3,6 @@ import { BackgroundGradientAnimation } from './BackgroundGradientAnimation';
 import GridGlobe from './GridGlobe';
 import MagicButton from './MagicButton';
 import { MdEmail } from 'react-icons/md';
-import { FaLinkedin } from 'react-icons/fa6';
 import { useTranslations } from 'next-intl';
 
 export const BentoGrid = ({
@@ -94,7 +93,7 @@ export const BentoGridItem = ({
           </div>
 
           <div
-            className={`font-sans text-lg lg:text-2xl max-w-96 font-bold z-10`}
+            className={'font-sans text-lg lg:text-2xl max-w-96 font-bold z-10'}
           >
             {title}
           </div>
