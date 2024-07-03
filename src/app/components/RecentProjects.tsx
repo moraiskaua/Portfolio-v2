@@ -1,17 +1,110 @@
 'use client';
 
-import { projects } from '@/data';
+import { useTranslations } from 'next-intl';
 import { PinContainer } from './ui/3d-pin';
 import { FaGithub, FaLocationArrow } from 'react-icons/fa6';
 
 interface RecentProjectsProps {}
 
 const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
+  const t = useTranslations('Projects');
+
+  const projects = [
+    {
+      id: 1,
+      name: 'Chord.io',
+      description: t('Chordio'),
+      iconList: [
+        '/techs/next.svg',
+        '/techs/nodejs.svg',
+        '/techs/tailwind.svg',
+        '/techs/mongodb.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/chord-io.jpg',
+      link: 'https://chord-io.netlify.app',
+      source_code_link: 'https://github.com/moraiskaua/Chord.io',
+    },
+    {
+      id: 2,
+      name: 'Saving Pets',
+      description: t('SavingPets'),
+      iconList: [
+        '/techs/next.svg',
+        '/techs/nestjs.svg',
+        '/techs/tailwind.svg',
+        '/techs/postgresql.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/savingpets.jpeg',
+      link: 'https://saving-pets.vercel.app',
+      source_code_link: 'https://github.com/moraiskaua/front-end-saving-pets',
+    },
+    {
+      id: 3,
+      name: 'Biofit',
+      description: t('Biofit'),
+      iconList: [
+        '/techs/next.svg',
+        '/techs/tailwind.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/biofit.png',
+      link: 'https://biofit-theta.vercel.app',
+      source_code_link: 'https://github.com/moraiskaua/Biofit',
+    },
+    {
+      id: 4,
+      name: 'DevEconomy',
+      description: t('DevEconomy'),
+      iconList: [
+        '/techs/react.svg',
+        '/techs/nestjs.svg',
+        '/techs/tailwind.svg',
+        '/techs/postgresql.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/deveconomy.jpg',
+      link: 'https://dev-economy.vercel.app',
+      source_code_link: 'https://github.com/moraiskaua/front-end-DevEconomy',
+    },
+    {
+      id: 5,
+      name: 'SnackByte',
+      description: t('SnackByte'),
+      iconList: [
+        '/techs/react.svg',
+        '/techs/nodejs.svg',
+        '/techs/tailwind.svg',
+        '/techs/mongodb.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/snackbyte.jpg',
+      link: 'https://snackbyte.vercel.app',
+      source_code_link: 'https://github.com/moraiskaua/front-end-SnackByte',
+    },
+    {
+      id: 6,
+      name: 'DevMessage',
+      description: t('DevMessage'),
+      iconList: [
+        '/techs/next.svg',
+        '/techs/nodejs.svg',
+        '/techs/tailwind.svg',
+        '/techs/mongodb.svg',
+        '/techs/typescript.svg',
+      ],
+      img: '/projects/dev-message.png',
+      link: 'https://dev-message.vercel.app',
+      source_code_link: 'https://github.com/moraiskaua/DevMessage',
+    },
+  ];
+
   return (
     <section className="py-20" id="projects">
       <h1 className="heading">
-        A small selection of{' '}
-        <span className="text-purple">recent projects</span>
+        {t('Header.Text')}
+        <span className="text-purple"> {t('Header.Highlighted')}</span>
       </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
@@ -70,7 +163,7 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
                     ))}
                   </div>
 
-                  <div className="flex w-full justify-between items-center">
+                  <div className="flex w-full justify-evenly items-center">
                     <button
                       onClick={e => {
                         e.stopPropagation();
@@ -83,13 +176,13 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
                       className="flex items-center text-purple"
                     >
                       <p className="lg:text-xl md:text-xs text-sm text-purple">
-                        View Code
+                        {t('Code')}
                       </p>
                       <FaGithub className="ms-2" size={20} color="#CBACF9" />
                     </button>
                     <div className="flex items-center ml-4">
                       <p className="lg:text-xl md:text-xs text-sm text-purple">
-                        Check Live Project
+                        {t('Preview')}
                       </p>
                       <FaLocationArrow className="ms-2" color="#CBACF9" />
                     </div>

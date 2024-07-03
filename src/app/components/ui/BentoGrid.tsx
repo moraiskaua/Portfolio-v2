@@ -3,7 +3,7 @@ import { BackgroundGradientAnimation } from './BackgroundGradientAnimation';
 import GridGlobe from './GridGlobe';
 import MagicButton from './MagicButton';
 import { MdEmail } from 'react-icons/md';
-import { FaLinkedin } from 'react-icons/fa6';
+import { useTranslations } from 'next-intl';
 
 export const BentoGrid = ({
   className,
@@ -43,6 +43,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
+  const t = useTranslations('Grid');
+
   return (
     <div
       className={cn(
@@ -91,7 +93,7 @@ export const BentoGridItem = ({
           </div>
 
           <div
-            className={`font-sans text-lg lg:text-2xl max-w-96 font-bold z-10`}
+            className={'font-sans text-lg lg:text-2xl max-w-96 font-bold z-10'}
           >
             {title}
           </div>
@@ -134,7 +136,7 @@ export const BentoGridItem = ({
             <div className="mt-5 relative">
               <a href="#contact">
                 <MagicButton
-                  title="Contact"
+                  title={t('Contact.Button')}
                   icon={<MdEmail />}
                   position="left"
                   otherClasses="bg-[#161A31]"

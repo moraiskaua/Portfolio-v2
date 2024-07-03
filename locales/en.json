@@ -1,0 +1,115 @@
+{
+  "Navbar": {
+    "About": "About",
+    "Projects": "Projects",
+    "Experience": "Experience",
+    "Contact": "Contact"
+  },
+  "Hero": {
+    "Header": "Power of Web Development with Next.js",
+    "Title": "Transforming Concepts into Seamless User Experiences",
+    "Me": "Hi, I'm Kauã, a Full-stack Developer 👋.",
+    "Button": "Show my work"
+  },
+  "Grid": {
+    "Collaboration": "I prioritize client collaboration, fostering open communication",
+    "Flexible": "I'm very flexible with time zone communications",
+    "Stack": {
+      "Title": "My tech stack",
+      "Description": "I constantly try to improve"
+    },
+    "Enthusiast": "Tech enthusiast with a passion for development.",
+    "News": {
+      "Title": "Currently building an application to learn Music!",
+      "Description": "The Inside Scoop"
+    },
+    "Contact": {
+      "Title": "Do you want to start a project together?",
+      "Button": "Contact"
+    }
+  },
+  "Projects": {
+    "Header": {
+      "Text": "A small selection of",
+      "Highlighted": "recent projects"
+    },
+    "Chordio": "Listen and guess the chord of the day.",
+    "SavingPets": "Web system to contact the saving pets team.",
+    "Biofit": "Landing page for biofit gym.",
+    "DevEconomy": "Manage your personal finances.",
+    "SnackByte": "Web system to manage a cafeteria.",
+    "DevMessage": "Real-time web messenger.",
+    "Code": "View Code",
+    "Preview": "Check Live Project"
+  },
+  "Experience": {
+    "Header": {
+      "Text": "My",
+      "Highlighted": "Experience"
+    },
+    "Frontend": {
+      "Title": "Front-end Developer",
+      "Description": "Using ReactJS."
+    },
+    "Backend": {
+      "Title": "Back-end Developer",
+      "Description": "Using NodeJS."
+    },
+    "Mobile": {
+      "Title": "Mobile Developer",
+      "Description": "Using React Native."
+    },
+    "Fullstack": {
+      "Title": "Full-stack Developer",
+      "Description": "Using all these technologies with typescript."
+    }
+  },
+  "Approach": {
+    "Header": {
+      "Text": "My",
+      "Highlighted": "Approach"
+    },
+    "Planning": {
+      "Order": "Phase 1",
+      "Title": "Planning",
+      "Description": "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like structure, navigation, and content."
+    },
+    "Development": {
+      "Order": "Phase 2",
+      "Title": "Development",
+      "Description": "Once we agree on the plan, i dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+    },
+    "Launch": {
+      "Order": "Phase 3",
+      "Title": "Launch",
+      "Description": "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building website from the ground up."
+    }
+  },
+  "Footer": {
+    "Header": {
+      "Pre": "Ready to take",
+      "Highlighted": "your digital presence",
+      "Pos": "to the next level?"
+    },
+    "Form": {
+      "Title": "Get in touch",
+      "Description": "Contact.",
+      "InputName": {
+        "Label": "Your Name",
+        "Placeholder": "What's your email?"
+      },
+      "InputEmail": {
+        "Label": "Your Email",
+        "Placeholder": "What's your email?"
+      },
+      "InputMsg": {
+        "Label": "Your Message",
+        "Placeholder": "What do you want to say?"
+      },
+      "Button": {
+        "Text": "Send",
+        "isLoading": "Sending..."
+      }
+    }
+  }
+}

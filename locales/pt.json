@@ -1,0 +1,115 @@
+{
+  "Navbar": {
+    "About": "Sobre",
+    "Projects": "Projetos",
+    "Experience": "Experiência",
+    "Contact": "Contato"
+  },
+  "Hero": {
+    "Header": "Poder do desenvolvimento Web com Next.js",
+    "Title": "Transformando conceitos em incríveis experiências de usuário",
+    "Me": "Olá, eu sou Kauã, desenvolvedor Full-stack 👋.",
+    "Button": "Confira meu trabalho"
+  },
+  "Grid": {
+    "Collaboration": "Priorizo ​​a colaboração do cliente, promovendo a comunicação aberta",
+    "Flexible": "Sou altamente flexível com fusos horários para contato.",
+    "Stack": {
+      "Title": "Tecnologias",
+      "Description": "Estudando constantemente"
+    },
+    "Enthusiast": "Entusiasta por tecnologia, apaixonado por desenvolvimento.",
+    "News": {
+      "Title": "Atualmente desenvolvendo um aplicativo para aprender música!",
+      "Description": "Informações internas"
+    },
+    "Contact": {
+      "Title": "Tem interesse em iniciar um projeto?",
+      "Button": "Contato"
+    }
+  },
+  "Projects": {
+    "Header": {
+      "Text": "Alguns",
+      "Highlighted": "projetos recentes"
+    },
+    "Chordio": "Escute e adivinhe o acorde do dia.",
+    "SavingPets": "Blog de contato para equipe do saving pets.",
+    "Biofit": "Página para academia biofit.",
+    "DevEconomy": "Gerencie suas finanças pessoais.",
+    "SnackByte": "Sistema para lanchonete.",
+    "DevMessage": "Chat de mensagens em tempo real.",
+    "Code": "Ver Código",
+    "Preview": "Ver Projeto"
+  },
+  "Experience": {
+    "Header": {
+      "Text": "Minha",
+      "Highlighted": "Experiência"
+    },
+    "Frontend": {
+      "Title": "Desenvolvedor Front-end",
+      "Description": "Usando ReactJS."
+    },
+    "Backend": {
+      "Title": "Desenvolvedor Back-end",
+      "Description": "Usando NodeJS."
+    },
+    "Mobile": {
+      "Title": "Desenvolvedor Mobile",
+      "Description": "Usando React Native."
+    },
+    "Fullstack": {
+      "Title": "Desenvolvedor Full-stack",
+      "Description": "Usando todas essas tecnologias com typescript."
+    }
+  },
+  "Approach": {
+    "Header": {
+      "Text": "Minha",
+      "Highlighted": "Abordagem"
+    },
+    "Planning": {
+      "Order": "Fase 1",
+      "Title": "Planejamento",
+      "Description": "Entenderemos os objetivos, o público-alvo e as principais funcionalidades do seu site. Discutiremos coisas como estrutura, navegação e conteúdo."
+    },
+    "Development": {
+      "Order": "Fase 2",
+      "Title": "Desenvolvimento",
+      "Description": "Assim que concordarmos com o plano, mergulho no código. Dos esboços iniciais ao código refinado, mantendo você atualizado em cada etapa do processo."
+    },
+    "Launch": {
+      "Order": "Fase 3",
+      "Title": "Produção",
+      "Description": "É aqui que a mágica acontece! Com base no design aprovado, transformarei tudo em código funcional, construindo o site do zero."
+    }
+  },
+  "Footer": {
+    "Header": {
+      "Pre": "Pronto para levar",
+      "Highlighted": "sua presença digital",
+      "Pos": "para o próximo nível?"
+    },
+    "Form": {
+      "Title": "Entrar em",
+      "Description": "Contato.",
+      "InputName": {
+        "Label": "Seu Nome",
+        "Placeholder": "Qual o seu nome?"
+      },
+      "InputEmail": {
+        "Label": "Seu Email",
+        "Placeholder": "Qual o seu email?"
+      },
+      "InputMsg": {
+        "Label": "Sua Mensagem",
+        "Placeholder": "O que você quer dizer?"
+      },
+      "Button": {
+        "Text": "Enviar",
+        "isLoading": "Enviando..."
+      }
+    }
+  }
+}

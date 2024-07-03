@@ -2,6 +2,7 @@ import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast';
 import { env } from '@/constants/env';
 import { ChangeEvent, FormEvent, useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 interface FormState {
   name: string;
@@ -10,6 +11,7 @@ interface FormState {
 }
 export const useContactControllet = () => {
   const [loading, setLoading] = useState(false);
+  const t = useTranslations('Footer');
   const [form, setForm] = useState<FormState>({
     name: '',
     email: '',
@@ -54,5 +56,5 @@ export const useContactControllet = () => {
     }
   };
 
-  return { form, loading, handleChange, handleSubmit };
+  return { t, form, loading, handleChange, handleSubmit };
 };
