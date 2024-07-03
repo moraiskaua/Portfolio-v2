@@ -163,7 +163,7 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
                     ))}
                   </div>
 
-                  <div className="flex w-full justify-between items-center">
+                  <div className="flex w-full justify-evenly items-center">
                     <button
                       onClick={e => {
                         e.stopPropagation();
@@ -176,13 +176,13 @@ const RecentProjects: React.FC<RecentProjectsProps> = ({}) => {
                       className="flex items-center text-purple"
                     >
                       <p className="lg:text-xl md:text-xs text-sm text-purple">
-                        View Code
+                        {t('Code')}
                       </p>
                       <FaGithub className="ms-2" size={20} color="#CBACF9" />
                     </button>
                     <div className="flex items-center ml-4">
                       <p className="lg:text-xl md:text-xs text-sm text-purple">
-                        Check Live Project
+                        {t('Preview')}
                       </p>
                       <FaLocationArrow className="ms-2" color="#CBACF9" />
                     </div>

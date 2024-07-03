@@ -38,7 +38,9 @@
     "Biofit": "Landing page for biofit gym.",
     "DevEconomy": "Manage your personal finances.",
     "SnackByte": "Web system to manage a cafeteria.",
-    "DevMessage": "Real-time web messenger."
+    "DevMessage": "Real-time web messenger.",
+    "Code": "View Code",
+    "Preview": "Check Live Project"
   },
   "Experience": {
     "Header": {
