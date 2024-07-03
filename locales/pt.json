@@ -84,5 +84,32 @@
       "Title": "Produção",
       "Description": "É aqui que a mágica acontece! Com base no design aprovado, transformarei tudo em código funcional, construindo o site do zero."
     }
+  },
+  "Footer": {
+    "Header": {
+      "Pre": "Pronto para levar",
+      "Highlighted": "sua presença digital",
+      "Pos": "para o próximo nível?"
+    },
+    "Form": {
+      "Title": "Entrar em",
+      "Description": "Contato.",
+      "InputName": {
+        "Label": "Seu Nome",
+        "Placeholder": "Qual o seu nome?"
+      },
+      "InputEmail": {
+        "Label": "Seu Email",
+        "Placeholder": "Qual o seu email?"
+      },
+      "InputMsg": {
+        "Label": "Sua Mensagem",
+        "Placeholder": "O que você quer dizer?"
+      },
+      "Button": {
+        "Text": "Enviar",
+        "isLoading": "Enviando..."
+      }
+    }
   }
 }

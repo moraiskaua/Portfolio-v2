@@ -84,5 +84,32 @@
       "Title": "Launch",
       "Description": "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building website from the ground up."
     }
+  },
+  "Footer": {
+    "Header": {
+      "Pre": "Ready to take",
+      "Highlighted": "your digital presence",
+      "Pos": "to the next level?"
+    },
+    "Form": {
+      "Title": "Get in touch",
+      "Description": "Contact.",
+      "InputName": {
+        "Label": "Your Name",
+        "Placeholder": "What's your email?"
+      },
+      "InputEmail": {
+        "Label": "Your Email",
+        "Placeholder": "What's your email?"
+      },
+      "InputMsg": {
+        "Label": "Your Message",
+        "Placeholder": "What do you want to say?"
+      },
+      "Button": {
+        "Text": "Send",
+        "isLoading": "Sending..."
+      }
+    }
   }
 }

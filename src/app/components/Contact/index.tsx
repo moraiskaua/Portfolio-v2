@@ -2,7 +2,8 @@ import { useContactControllet } from './useContactControllet';
 import FormField from './components/FormField';
 
 const Contact: React.FC = () => {
-  const { form, loading, handleChange, handleSubmit } = useContactControllet();
+  const { t, form, loading, handleChange, handleSubmit } =
+    useContactControllet();
 
   return (
     <section className="w-full justify-center xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden z-50">
@@ -15,33 +16,33 @@ const Contact: React.FC = () => {
         }}
       >
         <p className="sm:text-[18px] text-[14px] text-[#C1C2D3] uppercase tracking-wider">
-          Get in touch
+          {t('Form.Title')}
         </p>
         <h3 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-          Contact.
+          {t('Form.Description')}
         </h3>
 
         <form onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
           <FormField
-            label="Your Name"
+            label={t('Form.InputName.Label')}
             name="name"
             value={form.name}
-            placeholder="What's your name?"
+            placeholder={t('Form.InputName.Placeholder')}
             onChange={handleChange}
           />
           <FormField
-            label="Your Email"
+            label={t('Form.InputEmail.Label')}
             name="email"
             value={form.email}
-            placeholder="What's your email?"
+            placeholder={t('Form.InputEmail.Placeholder')}
             onChange={handleChange}
             type="email"
           />
           <FormField
-            label="Your Message"
+            label={t('Form.InputMsg.Label')}
             name="message"
             value={form.message}
-            placeholder="What do you want to say?"
+            placeholder={t('Form.InputMsg.Placeholder')}
             onChange={handleChange}
             isTextArea
           />
@@ -50,7 +51,7 @@ const Contact: React.FC = () => {
             className="bg-black-100 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-bg-black-100 rounded-xl"
             disabled={loading}
           >
-            {loading ? 'Sending...' : 'Send'}
+            {loading ? t('Form.Button.isLoading') : t('Form.Button.Text')}
           </button>
         </form>
       </div>

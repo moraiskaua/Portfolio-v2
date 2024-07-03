@@ -2,16 +2,20 @@
 
 import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 import Contact from './Contact';
+import { useTranslations } from 'next-intl';
 
 interface FooterProps {}
 
 const Footer: React.FC<FooterProps> = ({}) => {
+  const t = useTranslations('Footer');
+
   return (
     <footer className="w-full pt-20" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw] mb-2 lg:m-0">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          {t('Header.Pre')}{' '}
+          <span className="text-purple">{t('Header.Highlighted')}</span>{' '}
+          {t('Header.Pos')}
         </h1>
 
         <Contact />
