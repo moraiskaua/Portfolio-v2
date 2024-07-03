@@ -31,7 +31,7 @@
   "Projects": {
     "Header": {
       "Text": "Alguns",
-      "Highlighted": " projetos recentes"
+      "Highlighted": "projetos recentes"
     },
     "Chordio": "Escute e adivinhe o acorde do dia.",
     "SavingPets": "Blog de contato para equipe do saving pets.",
@@ -39,5 +39,27 @@
     "DevEconomy": "Gerencie suas finanças pessoais.",
     "SnackByte": "Sistema para lanchonete.",
     "DevMessage": "Chat de mensagens em tempo real."
+  },
+  "Experience": {
+    "Header": {
+      "Text": "Minha",
+      "Highlighted": "Experiência"
+    },
+    "Frontend": {
+      "Title": "Desenvolvedor Front-end",
+      "Description": "Usando ReactJS."
+    },
+    "Backend": {
+      "Title": "Desenvolvedor Back-end",
+      "Description": "Usando NodeJS."
+    },
+    "Mobile": {
+      "Title": "Desenvolvedor Mobile",
+      "Description": "Usando React Native."
+    },
+    "Fullstack": {
+      "Title": "Desenvolvedor Full-stack",
+      "Description": "Usando todas essas tecnologias com typescript."
+    }
   }
 }

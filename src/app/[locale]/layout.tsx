@@ -24,6 +24,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <link rel="icon" href="/icon/favicon.svg" />
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <Toaster

@@ -1,35 +1,38 @@
+import { useTranslations } from 'next-intl';
 import { Button } from './ui/MovingBorder';
 
 interface ExperienceProps {}
 
 const Experience: React.FC<ExperienceProps> = ({}) => {
+  const t = useTranslations('Experience');
+
   const experiences = [
     {
       id: 1,
-      title: 'Front-end Developer',
-      description: 'Using ReactJS.',
+      title: t('Frontend.Title'),
+      description: t('Frontend.Description'),
       thumbnail: '/experiences/exp1.svg',
       className: 'md:col-span-2',
     },
     {
       id: 2,
-      title: 'Back-end Developer',
-      description: 'Using NodeJS.',
+      title: t('Backend.Title'),
+      description: t('Backend.Description'),
       thumbnail: '/experiences/exp4.svg',
       className: 'md:col-span-2',
     },
     {
       id: 3,
-      title: 'Mobile Developer',
-      description: 'Using React Native.',
+      title: t('Mobile.Title'),
+      description: t('Mobile.Description'),
       thumbnail: '/experiences/exp3.svg',
       className: 'md:col-span-2',
     },
 
     {
       id: 4,
-      title: 'Full-stack Developer',
-      description: 'Using all these technologies with typescript.',
+      title: t('Fullstack.Title'),
+      description: t('Fullstack.Description'),
       thumbnail: '/experiences/exp2.svg',
       className: 'md:col-span-2',
     },
@@ -38,7 +41,8 @@ const Experience: React.FC<ExperienceProps> = ({}) => {
   return (
     <section className="py-20" id="experience">
       <h1 className="heading">
-        My <span className="text-purple">Experience</span>
+        {t('Header.Text')}{' '}
+        <span className="text-purple">{t('Header.Highlighted')}</span>
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
